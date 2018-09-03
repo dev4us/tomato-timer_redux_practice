@@ -1,9 +1,9 @@
 {
-  "expoServerPort": null,
-  "packagerPort": null,
-  "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null,
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 604,
+  "expoServerNgrokUrl": "https://yb-4jn.dev4us.tomato-timer-redux-practice.exp.direct",
+  "packagerNgrokUrl": "https://packager.yb-4jn.dev4us.tomato-timer-redux-practice.exp.direct",
+  "ngrokPid": 626,
   "devToolsPort": 19002
 }

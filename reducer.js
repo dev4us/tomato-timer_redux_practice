@@ -23,8 +23,8 @@ function addSecond(){
 const TIME_DURATION = 1500;
 
 const initialState = {
-    isCounting:  false,
-    counterDuration: TIME_DURATION,
+    isPlaying: false,
+    timerDuration: TIME_DURATION,
     elapsedTime: 0
 }
 
@@ -38,6 +38,9 @@ function reducer(state = initialState, action){
             break;
         case ADD_SECOND:
             return applyAddSecond(state);
+            break;
+        default:
+            return state;
             break;
     }
 }
@@ -77,4 +80,5 @@ const actionCreators = {
     addSecond
 }
 
+export { actionCreators };
 export default reducer;
